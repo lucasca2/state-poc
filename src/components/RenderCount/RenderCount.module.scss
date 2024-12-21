@@ -1,0 +1,28 @@
+.wrapper {
+    position: relative;
+}
+
+.textWrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    width: fit-content;
+}
+
+.text {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    padding: 4px 8px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}

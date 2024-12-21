@@ -1,0 +1,6 @@
+.wrapper {
+    > div:not(:first-child) {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

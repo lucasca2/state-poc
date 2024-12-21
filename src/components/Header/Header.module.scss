@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  justify-content: space-between;
+
+  padding: 40px 0;
+}
+
+.socialWrapper {
+  display: flex;
+  gap: 32px;
+
+  svg {
+    opacity: .5;
+    transition: opacity .3s;
+    will-change: opacity;
+  }
+
+  svg:hover {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,13 @@
+.image {
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100%;
+
+  width: 64px;
+  height: 64px;
+
+  @media (max-width: 768px) {
+    width: 48px;
+    height: 48px;
+  }
+}

@@ -1,0 +1,16 @@
+.code {
+  width: 100%;
+  padding: 32px;
+  background-color: #111;
+  border: 1px solid #111;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  overflow-x: auto;
+
+  .lineNumber {
+      margin-right: 24px;
+  }
+}

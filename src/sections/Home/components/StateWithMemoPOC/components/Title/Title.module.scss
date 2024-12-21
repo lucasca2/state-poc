@@ -1,0 +1,14 @@
+.wrapper {
+  > div {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ddd;
+  margin-bottom: 10px;
+  margin: 0;
+}

@@ -1,0 +1,39 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    overflow-x: hidden;
+
+    padding: 40px 24px;
+    
+    p {
+        width: 100%;
+        line-height: 28px;
+    }
+
+    > h1 {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    code {
+        background-color: #333;
+        padding: 2px 4px;
+        border-radius: 2px;
+    }
+
+    a {
+        color: #5dced9;
+    }
+}
+

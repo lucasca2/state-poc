@@ -1,6 +1,6 @@
 import { Home } from "@/sections/Home/Home";
 
-export default function HomePage() {
+export default function PostPage() {
   return (
     <div>
       <Home />
